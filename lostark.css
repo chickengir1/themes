@@ -1,24 +1,12 @@
-/**
- * @name Honkai Impact Yae Sakura
- * @author SAD SHARK#5716
- * @version 2.0.0
- * @description Display your picture of choice with adjustable blur and brightness. Dark theme is required
- * @source https://github.com/DiscordStyles/FrostedGlass
- * @invite ZHthyCw
- * @donate https://paypal.me/IanRGibson
- * @website https://gibbu.me
- * @authorId 174868361040232450
-*/
-
 @import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
 @import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 
 :root {
-  --background-image: url('https://i.imgur.com/3KRNFzO.jpg');
+  --background-image: url('https://i.namu.wiki/i/UtTaCdyLOzL3qNTLyz1uyj0LjCD7A_qvCHeW_51Ztvb_HRjIjt_xej5vvpJG_x-mchTyGeCbo_h3Ni3GcX5SRlh9PdiLUmLyOjxjtYiyut7WYOucWJo8NKRSS6dsSeijkE3Q2CMFNr7kl72mSgYeMg.webp');
   --background-image-blur: 0px;
   --background-image-size: cover;
-  --background-image-position: center;
+  --background-image-position: top; 
   --popout-modal-image: transparent;
   --popout-modal-blur: 0px;
   --popout-modal-size: cover;
@@ -50,9 +38,9 @@
   --rs-medium-width: 2.5px;
   --rs-large-width: 2px;
   --rs-avatar-shape: 50%;
-  --rs-online-color: #FB00FF;
+  --rs-online-color: #776988;
   --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
-  --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
+  --rs-dnd-color: #290f0f;
+  --rs-offline-color: #35547a;
+  --rs-streaming-color: #594876;
 }
