@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@300;400;700&display=swap');
 
 :root {
-  /* 로스트아크 배경 이미지 및 스타일 */
+  /* 배경 이미지 및 스타일 */
   --background-image: url('https://d2x8kymwjom7h7.cloudfront.net/live/application_no/96001/default/COMMUNITY/96c3a882b8ad4d37967a935f60ab1495/7d54430ad2384aa987ba23d92ce514a5.jpg');
   --background-image-blur: 0px;
   --background-image-size: cover;
@@ -19,32 +19,32 @@
   
   /* 홈 버튼 이미지 및 스타일 */
   --home-button-image: url('https://i1.ruliweb.com/img/24/02/29/18df335ee3847f450.png');
-  --home-button-size: 150%;  /* 크기를 줄임 */
+  --home-button-size: 150%;
   --home-button-position: center;
 
   /* 밝기 설정 */
   --serverlist-brightness: 0;
-  --left-brightness: 0.5;
-  --middle-brightness: 0.5;
+  --left-brightness: 0.1;
+  --middle-brightness: 0.3;
   --right-brightness: 0;
 
   /* 그라디언트 및 링크 색상 설정 */
-  --gradient-primary: 20, 40, 60;  /* 다크 블루 톤 */
-  --gradient-secondary: 45, 50, 55;  /* 다크 그레이 톤 */
-  --link-colour: #FFD700;  /* 골드 톤 */
-  --scrollbar-colour: rgba(255, 215, 0, 0.2); /* 스크롤바 골드 톤 */
+  --gradient-primary: 20, 40, 60;
+  --gradient-secondary: 45, 50, 55;
+  --link-colour: #FFD700;
+  --scrollbar-colour: rgba(255, 215, 0, 0.2);
   --gradient-direction: 180deg;
-  --tint-colour: 20, 40, 60; /* 다크 블루 톤 */
+  --tint-colour: 20, 40, 60;
   --tint-brightness: 0.1;
 
   /* 폰트 및 창 설정 */
-  --font: 'Nanum Gothic', "Whitney", Arial, sans-serif;  /* 한국어 글꼴 추가 */
+  --font: 'Nanum Gothic', "Whitney", Arial, sans-serif;
   --window-padding: 50px;
   --window-roundness: 10px;
   --show-gift-gif-buttons: block;
   --update-notice-1: none;
   --font-weight: 100;
-  --font-italic: italic;  /* 기울임 폰트 추가 */
+  --font-italic: oblique 15deg; 
   
   /* RadialStatus 설정 */
   --rs-small-spacing: 1px;
@@ -53,18 +53,15 @@
   --rs-small-width: 3px;
   --rs-medium-width: 4px;
   --rs-large-width: 5px;
-  --rs-avatar-shape: 50%;  /* 둥근 형태 */
-  --rs-online-color: #f7e57f;  /* 골드 톤 */
-  --rs-idle-color: #ebcb8b93;  /* 옅은 노란 톤 */
-  --rs-dnd-color: #BF616A;  /* 어두운 레드 톤 */
-  --rs-offline-color: #4C566A;  /* 그레이 톤 */
-  --rs-streaming-color: #B48EAD;  /* 보라 톤 */
-
-
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #f7e57f;
+  --rs-idle-color: #ebcb8b93;
+  --rs-dnd-color: #BF616A;
+  --rs-offline-color: #4C566A;
+  --rs-streaming-color: #B48EAD;
 }
 
-
-/* 일반 텍스트에 대한 기울임 스타일 */
-body, p, div, span, a {
+/* 특정 요소에 대한 기울임 스타일 */
+p, span, a {
   font-style: var(--font-italic);
 }
