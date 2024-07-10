@@ -9,16 +9,16 @@
   --background-image-blur: 0px;
   --background-image-size: cover;
   --background-image-position: top;
-  
+
   /* 모달 팝업 스타일 */
-  --popout-modal-image: url("https://image.fmkorea.com/files/attach/new3/20231219/2978469841/6343934770/6521080978/4cb8d0d1ae19f50094a9d8cddceb95f1.png");
+  --popout-modal-image: url("https://d2x8kymwjom7h7.cloudfront.net/live/application_no/96001/default/COMMUNITY/0010b76d4577445c93cce745b665b35a/2479812a389c4be48de6d853ca9cf191.jpg");
   --popout-modal-blur: 5px;
   --popout-modal-brightness: 0.5;
   --popout-modal-image-size: cover;
   --popout-modal-position: center;
-  
+
   /* 홈 버튼 이미지 및 스타일 */
-  --home-button-image: url('https://i1.ruliweb.com/img/24/02/29/18df335ee3847f450.png');
+  --home-button-image: url('https://d2x8kymwjom7h7.cloudfront.net/live/application_no/96001/default/COMMUNITY/0010b76d4577445c93cce745b665b35a/2479812a389c4be48de6d853ca9cf191.jpg');
   --home-button-size: 150%;
   --home-button-position: center;
 
@@ -44,8 +44,8 @@
   --show-gift-gif-buttons: block;
   --update-notice-1: none;
   --font-weight: 100;
-  --font-italic: oblique 15deg; 
-  
+  --font-italic: oblique 15deg;
+
   /* RadialStatus 설정 */
   --rs-small-spacing: 1px;
   --rs-medium-spacing: 2px;
@@ -62,6 +62,8 @@
 }
 
 /* 특정 요소에 대한 기울임 스타일 */
-p, span, a {
+p,
+span,
+a {
   font-style: var(--font-italic);
 }
