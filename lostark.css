@@ -3,44 +3,58 @@
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 
 :root {
+  /* 로스트아크 배경 이미지 및 스타일 */
   --background-image: url('https://i.namu.wiki/i/UtTaCdyLOzL3qNTLyz1uyj0LjCD7A_qvCHeW_51Ztvb_HRjIjt_xej5vvpJG_x-mchTyGeCbo_h3Ni3GcX5SRlh9PdiLUmLyOjxjtYiyut7WYOucWJo8NKRSS6dsSeijkE3Q2CMFNr7kl72mSgYeMg.webp');
   --background-image-blur: 0px;
   --background-image-size: cover;
-  --background-image-position: top; 
-  --popout-modal-image: transparent;
-  --popout-modal-blur: 0px;
+  --background-image-position: top;
+  
+  /* 모달 팝업 스타일 */
+  --popout-modal-image: url("https://image.fmkorea.com/files/attach/new3/20231219/2978469841/6343934770/6521080978/4cb8d0d1ae19f50094a9d8cddceb95f1.png");
+  --popout-modal-blur: 5px;
+  --popout-modal-brightness: 0.1;
   --popout-modal-size: cover;
   --popout-modal-position: center;
-  --home-button-image: url('https://i.imgur.com/M1bzBvR.jpg');
-  --home-button-size: 230%;
+
+  /* 홈 버튼 이미지 및 스타일 */
+  --home-button-image: url('https://i1.ruliweb.com/img/24/02/29/18df335ee3847f450.png');
+  --home-button-size: 150%;  /* 크기를 줄임 */
   --home-button-position: center;
-  --serverlist-brightness: 0.4;
-  --left-brightness: 0.4;
-  --middle-brightness: 0.4;
+
+  /* 밝기 설정 */
+  --serverlist-brightness: 0;
+  --left-brightness: 0.5;
+  --middle-brightness: 0.5;
   --right-brightness: 0;
-  --popout-modal-brightness: 0.4;
-  --gradient-primary: 90,0,251;
-  --gradient-secondary: 202,0,233;
-  --link-colour: #FFFFFF;
-  --scrollbar-colour: rgba(255,255,255,0.05);
+
+  /* 그라디언트 및 링크 색상 설정 */
+  --gradient-primary: 20, 40, 60;  /* 다크 블루 톤 */
+  --gradient-secondary: 45, 50, 55;  /* 다크 그레이 톤 */
+  --link-colour: #FFD700;  /* 골드 톤 */
+  --scrollbar-colour: rgba(255, 215, 0, 0.2); /* 스크롤바 골드 톤 */
   --gradient-direction: 180deg;
-  --tint-colour: 255,51,159;
-  --tint-brightness: 0;
-  --font: Whitney;
-  --window-padding: 0px;
-  --window-roundness: 0px;
+  --tint-colour: 20, 40, 60; /* 다크 블루 톤 */
+  --tint-brightness: 0.1;
+
+  /* 폰트 및 창 설정 */
+  --font: "Whitney", Arial, sans-serif;
+  --window-padding: 10px;
+  --window-roundness: 10px;
   --show-gift-gif-buttons: block;
   --update-notice-1: none;
-  --rs-small-spacing: 0px;
-  --rs-medium-spacing: 0px;
-  --rs-large-spacing: 2px;
-  --rs-small-width: 2.5px;
-  --rs-medium-width: 2.5px;
-  --rs-large-width: 2px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #776988;
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #290f0f;
-  --rs-offline-color: #35547a;
-  --rs-streaming-color: #594876;
+  --font-weight: 300; /* 폰트를 더 연하게 설정 */
+  
+  /* RadialStatus 설정 */
+  --rs-small-spacing: 1px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 3px;
+  --rs-small-width: 3px;
+  --rs-medium-width: 4px;
+  --rs-large-width: 5px;
+  --rs-avatar-shape: 50%;  /* 둥근 형태 */
+  --rs-online-color: #f7e57f;  /* 골드 톤 */
+  --rs-idle-color: #ebcb8b93;  /* 옅은 노란 톤 */
+  --rs-dnd-color: #BF616A;  /* 어두운 레드 톤 */
+  --rs-offline-color: #4C566A;  /* 그레이 톤 */
+  --rs-streaming-color: #B48EAD;  /* 보라 톤 */
 }
