@@ -1,6 +1,5 @@
 @import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
 @import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@300;400;700&display=swap');
 
 :root {
@@ -39,7 +38,7 @@
 
   /* 폰트 및 창 설정 */
   --font: 'Nanum Gothic', "Whitney", Arial, sans-serif;
-  --window-padding: 50px;
+  --window-padding: 10px;
   --window-roundness: 10px;
   --show-gift-gif-buttons: block;
   --update-notice-1: none;
