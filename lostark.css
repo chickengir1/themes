@@ -2,7 +2,6 @@
 
 @import url('https://refact0r.github.io/midnight-discord/midnight.css');
 @import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
-@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@300;400;700&display=swap');
 
 /* 사용자 정의 설정 */
@@ -11,10 +10,10 @@
   --font: 'figtree', 'Nanum Gothic', "Whitney", Arial, sans-serif;
 
   /* 왼쪽 상단 코너 텍스트 */
-  --corner-text: 'Midnight';
+  --corner-text: 'Lost-Ark';
 
   /* 상태 표시기 및 창 제어 색상 */
-  --online-indicator: var(--accent-2); /* 기본 초록색으로 변경하려면 #23a55a로 변경 */
+  --online-indicator: #79cfa4; /* 기본 초록색으로 변경하려면 #23a55a로 변경 */
   --dnd-indicator: hsl(340, 60%, 60%); /* 기본 빨간색으로 변경하려면 #f13f43로 변경 */
   --idle-indicator: hsl(50, 60%, 60%); /* 기본 노란색으로 변경하려면 #f0b232로 변경 */
   --streaming-indicator: hsl(260, 60%, 60%); /* 기본 보라색으로 변경하려면 #593695로 변경 */
