@@ -19,13 +19,13 @@
   --streaming-indicator: hsl(260, 60%, 60%); /* 기본 보라색으로 변경하려면 #593695로 변경 */
 
   /* 강조 색상 */
-  --accent-1: hsl(190, 70%, 60%); /* 링크 */
-  --accent-2: hsl(190, 70%, 48%); /* 일반 읽지 않음/멘션 요소 */
-  --accent-3: hsl(190, 70%, 42%); /* 강조 버튼 */
-  --accent-4: hsl(190, 70%, 36%); /* 강조 버튼 마우스 오버 시 */
-  --accent-5: hsl(190, 70%, 30%); /* 강조 버튼 클릭 시 */
-  --mention: hsla(190, 80%, 52%, 0.1); /* 멘션 및 멘션 메시지 */
-  --mention-hover: hsla(190, 80%, 52%, 0.05); /* 멘션 및 멘션 메시지 마우스 오버 시 */
+  --accent-1: hsl(200, 70%, 60%); /* 링크 */
+  --accent-2: hsl(200, 70%, 48%); /* 일반 읽지 않음/멘션 요소 */
+  --accent-3: hsl(200, 70%, 42%); /* 강조 버튼 */
+  --accent-4: hsl(200, 70%, 36%); /* 강조 버튼 마우스 오버 시 */
+  --accent-5: hsl(200, 70%, 30%); /* 강조 버튼 클릭 시 */
+  --mention: hsla(200, 80%, 52%, 0.1); /* 멘션 및 멘션 메시지 */
+  --mention-hover: hsla(200, 80%, 52%, 0.05); /* 멘션 및 멘션 메시지 마우스 오버 시 */
 
   /* 텍스트 색상 */
   --text-0: white; /* 색상 요소에 대한 텍스트 */
@@ -103,8 +103,8 @@
   /* 그라디언트 및 링크 색상 설정 */
   --gradient-primary: 20, 40, 60;
   --gradient-secondary: 45, 50, 55;
-  --link-colour: #FFD700;
-  --scrollbar-colour: rgba(255, 215, 0, 0.2);
+  --link-colour: #ADD8E6;
+  --scrollbar-colour: rgba(173, 216, 230, 0.2);
   --gradient-direction: 180deg;
   --tint-colour: 20, 40, 60;
   --tint-brightness: 0.1;
@@ -115,4 +115,51 @@
   --show-gift-gif-buttons: block;
   --update-notice-1: none;
   --font-weight: 100;
+}
+
+/* 사용자 정보 표시 영역 스타일 적용 */
+.userPopoutInner_c69a7b {
+  background-image: url('https://d2x8kymwjom7h7.cloudfront.net/live/application_no/96001/default/198e2a7d23544961accb36e3aff3e56b.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 10px;
+  color: #ADD8E6; /* 텍스트 색상 설정 */
+  z-index: -1; /* 배경을 뒤로 보냄 */
+}
+
+/* 텍스트 색상 설정 */
+.userPopoutInner_c69a7b .nickname_c32acf,
+.userPopoutInner_c69a7b .userTag_c32acf,
+.userPopoutInner_c69a7b .headerText_d5089b,
+.userPopoutInner_c69a7b .details_d5089b {
+  color: #ffffff;
+}
+
+/* 아바타 스타일 설정 */
+.userPopoutInner_c69a7b .avatar_cc54d6 {
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/* 상태 표시기 색상 설정 */
+.userPopoutInner_c69a7b .status_c7d26b {
+  background-color: #76c7c0; /* 부드러운 청록색 */
+}
+
+.userPopoutInner_c69a7b .status_c7d26b.dnd {
+  background-color: #e57373; /* 부드러운 빨간색 */
+}
+
+.userPopoutInner_c69a7b .status_c7d26b.idle {
+  background-color: #ffb74d; /* 부드러운 주황색 */
+}
+
+.userPopoutInner_c69a7b .status_c7d26b.streaming {
+  background-color: #9575cd; /* 부드러운 보라색 */
+}
+
+/* 배너 숨기기 */
+.banner_c3e427.divider_c3e427.biteSizeBanner_c3e427 {
+  display: none !important;
 }
